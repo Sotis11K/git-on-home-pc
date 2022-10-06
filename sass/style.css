@@ -1,0 +1,37 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.full-screen-container {
+  height: 100vh;
+}
+.full-screen-container img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: absolute;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-animation {
+  font-family: "Lucida Console";
+  color: hsl(120deg, 70%, 40%);
+  font-size: 40px;
+  height: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  width: 200px;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
